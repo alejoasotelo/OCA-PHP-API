@@ -32,12 +32,12 @@
 * OCA PHP API Class
 *
 * @link https://github.com/juanchorossi/OCA-PHP-API
-* @version 0.1.1
+* @version 0.2.0
 */
 
 class Oca
 {
-	const VERSION				= '0.1.1';
+	const VERSION				= '0.2.0';
 	protected $webservice_url	= 'webservice.oca.com.ar';
 
 	const FRANJA_HORARIA_8_17HS = 1;

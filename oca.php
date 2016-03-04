@@ -65,7 +65,7 @@ class Oca
 		$this->Operativa = $operativa;
 	}
 
-	public function getCuit($cuit)
+	public function getCuit()
 	{
 		return $this->Cuit;
 	}

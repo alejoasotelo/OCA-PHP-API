@@ -1,19 +1,25 @@
 Clase PHP para OCA Express Pak.
 
 ### Con Composer
-Desde línea de comandos
-```
-composer require juanchorossi/oca-php-api:dev-master
-```
-
-Como dependencia en tu proyecto a través de composer.json
-
+Agregar en tu proyecto en el archivo composer.json
 ```json
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alejoasotelo/oca-php-api"
+        }
+    ],
     "require": {
         "juanchorossi/oca-php-api": "dev-master"
     }
 }
+```
+
+Luego ejecutar por linea de comandos 
+
+```bash
+composer update
 ```
 ### Uso
 

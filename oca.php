@@ -552,7 +552,7 @@ class Oca
 			'Operativa'	=> $operativa
 			);
 
-		$xml = $this->makeCall('/oep_tracking/Oep_Track.asmx/GetCentroCostoPorOperativa', $data);
+		$xml = $this->_makeCall('/oep_tracking/Oep_Track.asmx/GetCentroCostoPorOperativa', $data);
 
 		$dom = new DOMDocument();
 		@$dom->loadXml($xml);
